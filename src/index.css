@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --burgundy: #4A0E17;
+    --burgundy-deep: #2B050B;
+    --burgundy-light: #6E1A27;
+    --gold-primary: #C59341;
+    --gold-light: #F3DE9E;
+    --gold-bright: #DFBA67;
+    --gold-dark: #8F621D;
+    --gold-foil: linear-gradient(135deg, #FBF0B9 0%, #DFBA67 28%, #C59341 55%, #E7C979 78%, #996822 100%);
+    --ivory: #FDFBF7;
+    --ivory-warm: #FAF5EC;
+    --beige-cream: #F4ECE1;
+    --beige-soft: #EFE6D8;
+    --sand: #E5DAC9;
+    --text-dark: #3A2E2B;
+    --text-muted: #7E6F68;
+    --text-burgundy: #52161E;
+    --shadow-sm: 0 4px 12px rgba(74, 14, 23, 0.08);
+    --shadow-md: 0 8px 24px rgba(74, 14, 23, 0.12);
+    --shadow-lg: 0 16px 36px rgba(74, 14, 23, 0.18);
+    --shadow-gold: 0 6px 20px rgba(197, 147, 65, 0.35);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #170306;
+  }
+
+  body {
+    background: radial-gradient(circle at 50% 30%, #2e080e 0%, #170306 100%);
+    min-height: 100vh;
+    min-height: 100dvh;
+    color: var(--text-dark);
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+}
+
+/* Script gold gradient text */
+.script-gold {
+  font-family: 'Alex Brush', cursive;
+  background: linear-gradient(135deg, #FBF0B9 0%, #DFBA67 28%, #C59341 55%, #E7C979 78%, #996822 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  filter: drop-shadow(0 1px 1px rgba(74, 14, 23, 0.15));
+}
+
+/* Moving gold shimmer sheen */
+.gold-shimmer {
+  background: linear-gradient(
+    90deg,
+    #C59341 0%,
+    #FBF0B9 25%,
+    #DFBA67 50%,
+    #FBF0B9 75%,
+    #C59341 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Arch frame gateway for couple photo */
+.portrait-arch-gateway {
+  position: relative;
+  width: 100%;
+  border-radius: 160px 160px 24px 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(74, 14, 23, 0.22), 0 0 0 4px #faf5ec, 0 0 0 7px #DFBA67, 0 0 25px rgba(223, 186, 103, 0.4);
+  background-color: #EFE6D8;
+}
+
+.portrait-soft-vignette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 35px rgba(245, 236, 224, 0.4), inset 0 -45px 45px rgba(74, 14, 23, 0.35);
+  pointer-events: none;
+}
+
+/* Keyframe animations */
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(0.95);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.15);
+    opacity: 1;
+  }
+}
+
+@keyframes sealPulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}
+
+@keyframes promptBounce {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
+
+@keyframes bouncePure {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+@keyframes equalize {
+  0% {
+    height: 4px;
+  }
+  100% {
+    height: 16px;
+  }
+}
+
+@keyframes blinkCursor {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes flicker {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(1.08, 0.95);
+    opacity: 0.88;
+  }
+  50% {
+    transform: scale(0.94, 1.05);
+    opacity: 0.95;
+  }
+  75% {
+    transform: scale(1.04, 0.98);
+    opacity: 0.9;
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s infinite ease-in-out;
+}
+
+.animate-seal-pulse {
+  animation: sealPulse 2.5s infinite;
+}
+
+.animate-prompt-bounce {
+  animation: promptBounce 2s infinite ease-in-out;
+}
+
+.animate-bounce-pure {
+  animation: bouncePure 2s infinite ease-in-out;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 45s linear infinite;
+}
+
+.animate-flicker {
+  animation: flicker 1.8s infinite ease-in-out;
+  transform-origin: 50% 90%;
+}
+
+.animate-float-gentle {
+  animation: floatGentle 3s infinite ease-in-out;
+}
+
+/* Equalizer bar animations */
+.bar-1 { animation: equalize 1s infinite alternate ease-in-out 0.1s; }
+.bar-2 { animation: equalize 1s infinite alternate ease-in-out 0.3s; }
+.bar-3 { animation: equalize 1s infinite alternate ease-in-out 0.2s; }
+.bar-4 { animation: equalize 1s infinite alternate ease-in-out 0.4s; }
+
+/* Blinking cursor for typewriter */
+.cursor-blink::after {
+  content: '|';
+  color: #DFBA67;
+  animation: blinkCursor 0.7s infinite;
+}
+
+/* Glassmorphism Luxury Wedding Card */
+.royal-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(197, 147, 65, 0.35);
+  box-shadow: 0 10px 30px rgba(74, 14, 23, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.8) inset;
+}
+
+.royal-card-gold {
+  background: linear-gradient(145deg, #faf4e8 0%, #fffdf9 100%);
+  border: 1.5px solid #DFBA67;
+  box-shadow: 0 12px 32px rgba(197, 147, 65, 0.22), 0 0 15px rgba(223, 186, 103, 0.15) inset;
+}
