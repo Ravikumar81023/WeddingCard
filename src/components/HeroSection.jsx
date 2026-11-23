@@ -9,7 +9,7 @@ export default function HeroSection() {
   return (
     <section
       id="heroSection"
-      className="pt-8 pb-11 px-4 bg-[radial-gradient(circle_at_50%_20%,#faf6ee_0%,#f5ece0_100%)] flex flex-col items-center justify-between min-h-[92vh] relative overflow-hidden"
+      className="pt-7 sm:pt-9 pb-10 sm:pb-12 px-3 sm:px-6 bg-[radial-gradient(circle_at_50%_20%,#faf6ee_0%,#f5ece0_100%)] flex flex-col items-center justify-between min-h-[88vh] sm:min-h-[92vh] relative overflow-hidden"
       aria-label="Bride and Groom Dual Royal Portrait"
     >
       {/* Background Mandala */}
@@ -22,11 +22,11 @@ export default function HeroSection() {
 
       {/* Side-by-Side Dual Portraits: Left Side Bride, Right Side Groom */}
       <ScrollReveal className="w-full max-w-[420px] my-2 mb-3 relative z-[2]">
-        <div className="flex items-center justify-between gap-2.5 sm:gap-4">
+        <div className="flex items-center justify-between gap-2 sm:gap-4">
           
           {/* Left Side: Bride (Rakhi) */}
-          <div className="flex-1 flex flex-col items-center group">
-            <div className="w-full aspect-[3/4.4] rounded-[100px_100px_20px_20px] overflow-hidden border-[3px] border-gold-bright shadow-[0_12px_28px_rgba(74,14,23,0.18)] bg-[#EFE6D8] relative">
+          <div className="flex-1 flex flex-col items-center group min-w-0">
+            <div className="w-full aspect-[3/4.4] rounded-[60px_60px_16px_16px] sm:rounded-[100px_100px_20px_20px] overflow-hidden border-2 sm:border-[3px] border-gold-bright shadow-[0_10px_24px_rgba(74,14,23,0.18)] bg-[#EFE6D8] relative">
               <img
                 src={couple.bride.photo}
                 alt={couple.bride.fullName}
@@ -34,15 +34,15 @@ export default function HeroSection() {
                 loading="eager"
                 decoding="async"
               />
-              <div className="absolute inset-0 shadow-[inset_0_0_20px_rgba(245,236,224,0.3),inset_0_-30px_30px_rgba(74,14,23,0.3)] pointer-events-none" />
+              <div className="absolute inset-0 shadow-[inset_0_0_20px_rgba(245,236,224,0.3),inset_0_-24px_24px_rgba(74,14,23,0.3)] pointer-events-none" />
             </div>
 
             {/* Bride Label Tag */}
-            <div className="mt-2 text-center">
-              <span className="font-royal text-[0.62rem] tracking-[1.5px] font-bold text-gold-dark uppercase block">
+            <div className="mt-1.5 sm:mt-2 text-center">
+              <span className="font-royal text-[0.58rem] sm:text-[0.62rem] tracking-[1.2px] font-bold text-gold-dark uppercase block">
                 वधू (Bride)
               </span>
-              <span className="font-devanagari text-[1.1rem] font-bold text-burgundy">
+              <span className="font-devanagari text-[0.95rem] sm:text-[1.1rem] font-bold text-burgundy">
                 {couple.bride.hindiFirstName}
               </span>
             </div>
@@ -50,20 +50,20 @@ export default function HeroSection() {
 
           {/* Center Connector: Sacred Sang Heart */}
           <div className="flex flex-col items-center justify-center shrink-0 px-0.5">
-            <div className="w-10 h-10 rounded-full bg-gold-foil flex items-center justify-center text-burgundy-deep shadow-gold-wedding shadow-md my-1 animate-pulse">
-              <span className="text-base font-bold">💍</span>
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gold-foil flex items-center justify-center text-burgundy-deep shadow-gold-wedding shadow-md my-0.5 sm:my-1 animate-pulse">
+              <span className="text-sm sm:text-base font-bold">💍</span>
             </div>
-            <span className="font-script text-[1.8rem] text-gold-dark font-bold leading-none animate-float-gentle">
+            <span className="font-script text-[1.5rem] sm:text-[1.8rem] text-gold-dark font-bold leading-none animate-float-gentle">
               संग
             </span>
-            <span className="text-[0.65rem] font-royal tracking-widest text-text-muted uppercase">
+            <span className="text-[0.55rem] sm:text-[0.65rem] font-royal tracking-widest text-text-muted uppercase">
               Weds
             </span>
           </div>
 
           {/* Right Side: Groom (Ranjit) */}
-          <div className="flex-1 flex flex-col items-center group">
-            <div className="w-full aspect-[3/4.4] rounded-[100px_100px_20px_20px] overflow-hidden border-[3px] border-gold-bright shadow-[0_12px_28px_rgba(74,14,23,0.18)] bg-[#EFE6D8] relative">
+          <div className="flex-1 flex flex-col items-center group min-w-0">
+            <div className="w-full aspect-[3/4.4] rounded-[60px_60px_16px_16px] sm:rounded-[100px_100px_20px_20px] overflow-hidden border-2 sm:border-[3px] border-gold-bright shadow-[0_10px_24px_rgba(74,14,23,0.18)] bg-[#EFE6D8] relative">
               <img
                 src={couple.groom.photo}
                 alt={couple.groom.fullName}
@@ -71,15 +71,15 @@ export default function HeroSection() {
                 loading="eager"
                 decoding="async"
               />
-              <div className="absolute inset-0 shadow-[inset_0_0_20px_rgba(245,236,224,0.3),inset_0_-30px_30px_rgba(74,14,23,0.3)] pointer-events-none" />
+              <div className="absolute inset-0 shadow-[inset_0_0_20px_rgba(245,236,224,0.3),inset_0_-24px_24px_rgba(74,14,23,0.3)] pointer-events-none" />
             </div>
 
             {/* Groom Label Tag */}
-            <div className="mt-2 text-center">
-              <span className="font-royal text-[0.62rem] tracking-[1.5px] font-bold text-gold-dark uppercase block">
+            <div className="mt-1.5 sm:mt-2 text-center">
+              <span className="font-royal text-[0.58rem] sm:text-[0.62rem] tracking-[1.2px] font-bold text-gold-dark uppercase block">
                 वर (Groom)
               </span>
-              <span className="font-devanagari text-[1.1rem] font-bold text-burgundy">
+              <span className="font-devanagari text-[0.95rem] sm:text-[1.1rem] font-bold text-burgundy">
                 {couple.groom.hindiFirstName}
               </span>
             </div>
@@ -89,12 +89,12 @@ export default function HeroSection() {
       </ScrollReveal>
 
       {/* Rounded Forever Card with Corner Ornaments */}
-      <ScrollReveal delay={200} className="w-full max-w-[340px] mt-3 relative z-[2]">
-        <div className="relative w-full bg-white/95 backdrop-blur-md rounded-[20px] py-4 px-5 border-[1.5px] border-gold-bright shadow-lg-wedding flex flex-col items-center">
+      <ScrollReveal delay={200} className="w-full max-w-[340px] mt-2 sm:mt-3 relative z-[2]">
+        <div className="relative w-full bg-white/95 backdrop-blur-md rounded-[18px] sm:rounded-[20px] py-3.5 sm:py-4 px-4 sm:px-5 border-[1.5px] border-gold-bright shadow-lg-wedding flex flex-col items-center">
           <CornerOrnament position="top-left" />
           <CornerOrnament position="top-right" />
 
-          <div className="w-[64px] h-[64px] flex items-center justify-center drop-shadow-[0_6px_14px_rgba(197,147,65,0.4)] mb-1 hover:scale-110 transition-transform">
+          <div className="w-[56px] h-[56px] sm:w-[64px] sm:h-[64px] flex items-center justify-center drop-shadow-[0_6px_14px_rgba(197,147,65,0.4)] mb-1 hover:scale-110 transition-transform">
             <img
               src={couple.monogram}
               alt="Heart Seal"
@@ -106,10 +106,10 @@ export default function HeroSection() {
           </div>
 
           <div className="text-center">
-            <span className="font-royal text-[0.65rem] tracking-[3px] text-text-muted uppercase block">
+            <span className="font-royal text-[0.6rem] sm:text-[0.65rem] tracking-[2.5px] sm:tracking-[3px] text-text-muted uppercase block">
               Our forever begins
             </span>
-            <h2 className="font-script text-[2.6rem] text-burgundy leading-none font-normal">
+            <h2 className="font-script text-[2.2rem] sm:text-[2.6rem] text-burgundy leading-none font-normal">
               together
             </h2>
           </div>
