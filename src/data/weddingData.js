@@ -113,7 +113,6 @@ export const WEDDING_DATA = {
       title: "मण्डपाच्छादन, हल्दी कलश, वंशरोपन एवं देवपूजा",
       englishTitle: "Mandapachhadan, Haldi Kalash & Devpuja",
       bannerImage: "/assets/images/haldiceremnoy.webp",
-      centerEmoji: "💛",
       venueBadge: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुलतानपुर में",
       venueBadgeIcon: "/assets/images/turmeric.webp",
       badgeClass: "bg-[#fff8d6] text-[#7a5500] border-[#f3db78]",
