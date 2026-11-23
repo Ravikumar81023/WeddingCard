@@ -43,7 +43,7 @@ export default function SaveTheDateSection({ onShowToast }) {
       ctx.textAlign = 'center';
       ctx.fillText('✨ SCRATCH TO REVEAL ✨', w / 2, h / 2 - 12);
 
-      ctx.font = 'italic 28px "Alex Brush", cursive';
+      ctx.font = 'bold 24px "Playfair Display", "Cormorant Garamond", Georgia, serif';
       ctx.fillStyle = '#2B050B';
       ctx.fillText('The Wedding Date', w / 2, h / 2 + 18);
     };

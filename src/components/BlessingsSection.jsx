@@ -110,8 +110,10 @@ export default function BlessingsSection() {
 
         {/* Connector */}
         <ScrollReveal delay={400}>
-          <div className="font-script text-[2rem] sm:text-[2.4rem] text-gold-dark my-0.5 sm:my-1 select-none animate-float-gentle" aria-hidden="true">
-            ♡ संग ♡
+          <div className="font-serif font-bold text-lg sm:text-xl text-gold-bright my-1.5 select-none animate-float-gentle tracking-widest uppercase flex items-center justify-center gap-2" aria-hidden="true">
+            <span className="text-gold-light">♡</span>
+            <span>संग • WEDS</span>
+            <span className="text-gold-light">♡</span>
           </div>
         </ScrollReveal>
 

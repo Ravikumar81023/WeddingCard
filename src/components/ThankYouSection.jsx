@@ -30,8 +30,8 @@ export default function ThankYouSection() {
         </p>
 
         {/* Script Names */}
-        <div className="font-script text-[3.4rem] text-gold-light mb-1 select-none">
-          {couple.bride.firstName} &amp; {couple.groom.firstName}
+        <div className="font-serif text-[2.4rem] sm:text-[3rem] font-bold script-gold mb-1 select-none tracking-wide">
+          {couple.bride.firstName} Weds {couple.groom.firstName}
         </div>
         <div className="font-devanagari text-xl text-gold-bright mb-8 font-medium">
           {couple.bride.hindiFirstName} संग {couple.groom.hindiFirstName}

@@ -12,6 +12,7 @@
     --gold-bright: #DFBA67;
     --gold-dark: #8F621D;
     --gold-foil: linear-gradient(135deg, #FBF0B9 0%, #DFBA67 28%, #C59341 55%, #E7C979 78%, #996822 100%);
+    --gold-metal: linear-gradient(180deg, #FFF1B8 0%, #DFBA67 45%, #C59341 78%, #8A5B18 100%);
     --ivory: #FDFBF7;
     --ivory-warm: #FAF5EC;
     --beige-cream: #F4ECE1;
@@ -40,14 +41,17 @@
   }
 }
 
-/* Script gold gradient text */
-.script-gold {
-  font-family: 'Alex Brush', cursive;
-  background: linear-gradient(135deg, #FBF0B9 0%, #DFBA67 28%, #C59341 55%, #E7C979 78%, #996822 100%);
+/* Regal 3D Gold Font matching the user image 'Rakhi Weds Ranjit' */
+.script-gold,
+.font-royal-gold {
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: linear-gradient(180deg, #FFF1B8 0%, #DFBA67 45%, #C59341 78%, #8A5B18 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
-  filter: drop-shadow(0 1px 1px rgba(74, 14, 23, 0.15));
+  filter: drop-shadow(0 2px 4px rgba(74, 14, 23, 0.4));
 }
 
 /* Moving gold shimmer sheen */
@@ -55,9 +59,9 @@
   background: linear-gradient(
     90deg,
     #C59341 0%,
-    #FBF0B9 25%,
+    #FFF1B8 25%,
     #DFBA67 50%,
-    #FBF0B9 75%,
+    #FFF1B8 75%,
     #C59341 100%
   );
   background-size: 200% auto;
@@ -188,7 +192,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-6px);
+    transform: translateY(-5px);
   }
 }
 

@@ -32,14 +32,16 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-        royal: ['Cinzel', 'serif'],
-        script: ['"Alex Brush"', 'cursive'],
+        serif: ['"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'serif'],
+        royal: ['"Playfair Display"', 'Cinzel', 'serif'],
+        script: ['"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'serif'],
+        display: ['"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'serif'],
         sans: ['Montserrat', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
         devanagari: ['"Tiro Devanagari Hindi"', '"Baloo 2"', 'serif'],
       },
       backgroundImage: {
         'gold-foil': 'linear-gradient(135deg, #FBF0B9 0%, #DFBA67 28%, #C59341 55%, #E7C979 78%, #996822 100%)',
+        'gold-metal': 'linear-gradient(180deg, #FFF1B8 0%, #DFBA67 45%, #C59341 78%, #8A5B18 100%)',
         'bg-radial': 'radial-gradient(circle at 50% 30%, #2e080e 0%, #170306 100%)',
       },
       boxShadow: {

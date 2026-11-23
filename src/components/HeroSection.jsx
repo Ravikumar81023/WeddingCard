@@ -53,10 +53,10 @@ export default function HeroSection() {
             <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gold-foil flex items-center justify-center text-burgundy-deep shadow-gold-wedding shadow-md my-0.5 sm:my-1 animate-pulse">
               <span className="text-sm sm:text-base font-bold">💍</span>
             </div>
-            <span className="font-script text-[1.5rem] sm:text-[1.8rem] text-gold-dark font-bold leading-none animate-float-gentle">
+            <span className="font-serif text-[1.4rem] sm:text-[1.6rem] text-gold-dark font-bold leading-none animate-float-gentle">
               संग
             </span>
-            <span className="text-[0.55rem] sm:text-[0.65rem] font-royal tracking-widest text-text-muted uppercase">
+            <span className="text-[0.65rem] sm:text-[0.72rem] font-serif font-bold tracking-widest text-burgundy uppercase">
               Weds
             </span>
           </div>
@@ -109,8 +109,8 @@ export default function HeroSection() {
             <span className="font-royal text-[0.6rem] sm:text-[0.65rem] tracking-[2.5px] sm:tracking-[3px] text-text-muted uppercase block">
               Our forever begins
             </span>
-            <h2 className="font-script text-[2.2rem] sm:text-[2.6rem] text-burgundy leading-none font-normal">
-              together
+            <h2 className="font-serif text-[1.8rem] sm:text-[2.2rem] text-burgundy font-bold tracking-wide uppercase leading-tight mt-0.5">
+              Together
             </h2>
           </div>
         </div>
