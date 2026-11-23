@@ -41,6 +41,83 @@
   }
 }
 
+/* Opulent Royal Velvet Burgundy & 24K Gold Theme */
+.royal-velvet-section {
+  background: radial-gradient(ellipse at 50% 12%, #4e0e1a 0%, #30060e 42%, #1c0307 78%, #100103 100%);
+  position: relative;
+}
+
+/* Moving Specular 24K Liquid Gold Typography Animation */
+@keyframes goldSheenSweep {
+  0% {
+    background-position: -200% center;
+  }
+  50% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+.gold-animated-shimmer {
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  font-weight: 800;
+  background: linear-gradient(
+    105deg,
+    #cf952e 0%,
+    #fadc7a 20%,
+    #ffffff 32%,
+    #ffeb99 42%,
+    #c4861b 55%,
+    #ffffff 70%,
+    #fadc7a 82%,
+    #995f0c 100%
+  );
+  background-size: 250% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  animation: goldSheenSweep 4.5s ease-in-out infinite;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.9)) drop-shadow(0 0 16px rgba(245, 206, 104, 0.45));
+}
+
+/* Luminous breathing text glow for titles & sacred Hindi names */
+@keyframes divineTextGlow {
+  0%, 100% {
+    color: #FFE7A3;
+    text-shadow: 0 0 10px rgba(245, 206, 104, 0.5), 0 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  50% {
+    color: #FFF8E1;
+    text-shadow: 0 0 20px rgba(255, 235, 163, 0.85), 0 0 35px rgba(223, 186, 103, 0.65), 0 2px 6px rgba(0, 0, 0, 0.9);
+  }
+}
+
+.text-divine-glow {
+  animation: divineTextGlow 3.5s ease-in-out infinite;
+}
+
+/* Ambient floating golden dust particles */
+@keyframes ambientGoldFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translateY(-12px) rotate(180deg);
+    opacity: 0.75;
+  }
+}
+
+.ambient-gold-sparkle {
+  position: absolute;
+  pointer-events: none;
+  background: radial-gradient(circle, #ffe699 0%, rgba(223, 186, 103, 0.4) 60%, transparent 100%);
+  border-radius: 50%;
+  animation: ambientGoldFloat 6s ease-in-out infinite;
+}
+
 /* Regal 3D Gold Font matching luxury foil-stamped invitation typography - High Definition on Light & Dark */
 .script-gold,
 .font-royal-gold {

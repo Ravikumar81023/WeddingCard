@@ -83,7 +83,7 @@ function WeddingContent() {
 
       {/* Mobile-First Royal Wedding Card Container */}
       <main
-        className="w-full max-w-[460px] bg-ivory min-h-screen shadow-[0_0_60px_rgba(0,0,0,0.6),0_0_20px_rgba(223,186,103,0.2)] overflow-x-hidden relative z-10"
+        className="w-full max-w-[460px] bg-[#1c0307] min-h-screen shadow-[0_0_60px_rgba(0,0,0,0.8),0_0_30px_rgba(223,186,103,0.25)] overflow-x-hidden relative z-10"
         role="main"
       >
         <BlessingsSection />
