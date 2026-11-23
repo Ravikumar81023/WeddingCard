@@ -63,6 +63,9 @@
 .gold-animated-shimmer {
   font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
   font-weight: 800;
+  line-height: 1.25;
+  padding-bottom: 0.18em;
+  overflow: visible;
   background: linear-gradient(
     105deg,
     #cf952e 0%,
@@ -124,6 +127,9 @@
   font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
   font-weight: 700;
   letter-spacing: 0.5px;
+  line-height: 1.25;
+  padding-bottom: 0.18em;
+  overflow: visible;
   background: linear-gradient(180deg, #b87a17 0%, #ebbc56 22%, #ffd978 40%, #c98e24 68%, #854f0a 92%, #593102 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

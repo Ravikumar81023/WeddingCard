@@ -102,7 +102,7 @@ export default function BlessingsSection() {
                 className="w-full h-full object-cover object-top rounded-full"
               />
             </div>
-            <h1 className="text-[3.2rem] sm:text-[4.2rem] leading-none gold-animated-shimmer select-none font-bold tracking-normal mb-1">
+            <h1 className="text-[3.2rem] sm:text-[4.2rem] leading-[1.25] pb-2 sm:pb-3 gold-animated-shimmer select-none font-bold tracking-normal overflow-visible">
               {couple.bride.firstName}
             </h1>
             <div className="font-devanagari text-xl sm:text-2xl text-divine-glow font-bold tracking-wide mt-0.5">
@@ -138,7 +138,7 @@ export default function BlessingsSection() {
                 className="w-full h-full object-cover object-top rounded-full"
               />
             </div>
-            <h1 className="text-[3.2rem] sm:text-[4.2rem] leading-none gold-animated-shimmer select-none font-bold tracking-normal mb-1">
+            <h1 className="text-[3.2rem] sm:text-[4.2rem] leading-[1.25] pb-2 sm:pb-3 gold-animated-shimmer select-none font-bold tracking-normal overflow-visible">
               {couple.groom.firstName}
             </h1>
             <div className="font-devanagari text-xl sm:text-2xl text-divine-glow font-bold tracking-wide mt-0.5">
