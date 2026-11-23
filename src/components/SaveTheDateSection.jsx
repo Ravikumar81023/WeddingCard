@@ -140,7 +140,7 @@ export default function SaveTheDateSection({ onShowToast }) {
             </span>
             <div className="flex items-center gap-3 my-1">
               <span className="text-gold-bright text-[1.2rem]" aria-hidden="true">✦</span>
-              <span className="font-serif text-[3.4rem] font-bold text-burgundy leading-none">
+              <span className="font-sans text-[3.6rem] font-bold text-burgundy-deep leading-none tracking-tight">
                 {weddingDate.day}
               </span>
               <span className="text-gold-bright text-[1.2rem]" aria-hidden="true">✦</span>
