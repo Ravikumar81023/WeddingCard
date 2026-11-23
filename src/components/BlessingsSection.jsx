@@ -161,12 +161,28 @@ export default function BlessingsSection() {
         </div>
       </ScrollReveal>
 
-      {/* Emotional Daughter's Poetry from Card */}
+      {/* Auspicious Couple Poem & Emotional Daughter's Poetry from Card */}
       <ScrollReveal delay={550}>
-        <div className="max-w-[340px] mx-auto my-2.5 sm:my-3 mb-4 sm:mb-5 bg-[#faf4e8]/80 p-3 sm:p-3.5 rounded-xl border border-gold-light/60 shadow-sm">
-          <blockquote className="font-devanagari text-[0.92rem] sm:text-[0.98rem] leading-[1.75] text-burgundy font-normal whitespace-pre-line">
-            {couple.emotionalQuote}
-          </blockquote>
+        <div className="max-w-[360px] mx-auto my-2.5 sm:my-3 mb-4 sm:mb-5 flex flex-col gap-2.5">
+          {/* Couple Blessing Poem */}
+          <div className="bg-[#faf4e8]/90 p-3 sm:p-3.5 rounded-xl border border-gold-bright/40 shadow-sm text-center">
+            <span className="font-royal text-[0.6rem] tracking-[1.5px] font-bold text-gold-dark block mb-1 uppercase">
+              ✦ ईश्वरीय स्नेहाशीर्वाद ✦
+            </span>
+            <blockquote className="font-devanagari text-[0.9rem] sm:text-[0.96rem] leading-[1.7] text-burgundy font-medium whitespace-pre-line">
+              {couple.coupleBlessingPoem}
+            </blockquote>
+          </div>
+
+          {/* Emotional Daughter's Poetry */}
+          <div className="bg-[#fffdfa]/85 p-3 sm:p-3.5 rounded-xl border border-gold-light/60 shadow-sm text-center">
+            <span className="font-royal text-[0.6rem] tracking-[1.5px] font-bold text-burgundy-light block mb-1 uppercase">
+              ✦ भावभीनी विदाई पंक्तियाँ ✦
+            </span>
+            <blockquote className="font-devanagari text-[0.88rem] sm:text-[0.94rem] leading-[1.7] text-burgundy font-normal italic whitespace-pre-line">
+              {couple.emotionalQuote}
+            </blockquote>
+          </div>
         </div>
       </ScrollReveal>
 

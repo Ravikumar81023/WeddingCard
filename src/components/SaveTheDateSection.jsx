@@ -99,7 +99,7 @@ export default function SaveTheDateSection({ onShowToast }) {
   const googleCalUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+of+Rakhi+%26+Ranjit+(राखी+संग+रंजीत)&dates=20261211T133000Z/20261211T183000Z&details=Join+us+for+the+auspicious+wedding+celebration+of+Rakhi+%26+Ranjit+on+11+December+2026.+Venue:+Gram-Sultanpur,+Nalanda,+Bihar&location=Gram+Sultanpur,+Nalanda,+Bihar";
 
   // WhatsApp Share URL
-  const whatsappUrl = "https://api.whatsapp.com/send?text=शुभ%20विवाह!%20आप%20सभी%20राखी%20संग%20रंजीत%20के%20शुभ%20विवाह%20(11/12/2026,%20शुक्रवार)%20में%20सपरिवार%20सादर%20आमंत्रित%20हैं।%20निमंत्रण%20पत्र%20देखें:%20https://anjaliwedsritesh.pages.dev";
+  const whatsappUrl = "https://api.whatsapp.com/send?text=शुभ%20विवाह!%20आप%20सभी%20राखी%20संग%20रंजीत%20के%20शुभ%20विवाह%20(11/12/2026,%20शुक्रवार)%20में%20सपरिवार%20सादर%20आमंत्रित%20हैं।%20स्थान:%20ग्राम-सुलतानपुर,%20नालन्दा।";
 
   return (
     <section

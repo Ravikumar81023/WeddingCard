@@ -38,13 +38,28 @@ export default function ThankYouSection() {
         </div>
       </ScrollReveal>
 
-      {/* Host / प्रेषक Contact Block from Card */}
+      {/* Host / प्रेषक & दर्शनाभिलाषी Block from Card */}
       <ScrollReveal delay={150}>
-        <div className="mb-10 bg-white/[0.05] border border-gold-bright/40 rounded-2xl p-5 max-w-[340px] mx-auto backdrop-blur-sm">
-          <div className="font-devanagari text-[1rem] text-gold-bright font-bold mb-1">
-            {host.title} {host.name}
+        <div className="mb-10 bg-white/[0.05] border border-gold-bright/40 rounded-2xl p-5 max-w-[360px] mx-auto backdrop-blur-sm text-center">
+          
+          {/* Darshanabhilashi from Card */}
+          <div className="mb-4 pb-3.5 border-b border-gold-bright/25">
+            <span className="font-royal text-[0.68rem] tracking-[2px] font-bold text-gold-light uppercase block mb-1">
+              {host.darshanabhilashi.title}
+            </span>
+            <p className="font-devanagari text-[0.95rem] text-[#fff2c6] font-medium">
+              {host.darshanabhilashi.text}
+            </p>
           </div>
-          <p className="font-devanagari text-xs text-cream-sand mb-4">
+
+          {/* Aakankshi / Preshak from Card */}
+          <div className="font-royal text-[0.68rem] tracking-[2px] font-bold text-gold-light uppercase mb-1">
+            {host.aakankshi.title}
+          </div>
+          <div className="font-devanagari text-[1.15rem] text-gold-bright font-bold mb-0.5">
+            {host.name}
+          </div>
+          <p className="font-devanagari text-xs text-cream-sand mb-4 leading-relaxed">
             {host.address}
           </p>
 
