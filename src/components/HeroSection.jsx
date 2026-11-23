@@ -53,10 +53,10 @@ export default function HeroSection() {
             <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gold-foil flex items-center justify-center text-burgundy-deep shadow-gold-wedding shadow-md my-0.5 sm:my-1 animate-pulse">
               <span className="text-sm sm:text-base font-bold">💍</span>
             </div>
-            <span className="font-serif text-[1.4rem] sm:text-[1.6rem] text-gold-dark font-bold leading-none animate-float-gentle">
+            <span className="font-serif text-[1.45rem] sm:text-[1.7rem] text-burgundy-deep font-bold leading-none animate-float-gentle drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]">
               संग
             </span>
-            <span className="text-[0.65rem] sm:text-[0.72rem] font-serif font-bold tracking-widest text-burgundy uppercase">
+            <span className="text-[0.65rem] sm:text-[0.75rem] font-serif font-bold tracking-[2px] text-gold-dark uppercase mt-0.5">
               Weds
             </span>
           </div>

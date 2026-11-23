@@ -89,31 +89,35 @@ export default function BlessingsSection() {
         <ScrollReveal delay={350}>
           <div className="flex flex-col items-center mb-2 sm:mb-3">
             {/* Circular Bride Avatar */}
-            <div className="w-[72px] h-[72px] sm:w-[84px] sm:h-[84px] rounded-full p-[2.5px] sm:p-[3px] bg-gold-foil shadow-md-wedding mb-1.5 sm:mb-2 hover:scale-105 transition-transform">
+            <div className="w-[76px] h-[76px] sm:w-[88px] sm:h-[88px] rounded-full p-[2.5px] sm:p-[3px] bg-gold-foil shadow-md-wedding mb-2 hover:scale-105 transition-transform">
               <img
                 src={couple.bride.photo}
                 alt={couple.bride.fullName}
                 className="w-full h-full object-cover object-top rounded-full"
               />
             </div>
-            <h1 className="text-[2.8rem] sm:text-[3.5rem] leading-none script-gold select-none">
+            <h1 className="text-[3rem] sm:text-[3.8rem] leading-none script-gold select-none font-bold tracking-tight mb-1">
               {couple.bride.firstName}
             </h1>
-            <div className="font-devanagari text-lg sm:text-xl text-burgundy font-medium mt-0.5">
+            <div className="font-devanagari text-xl sm:text-2xl text-burgundy-deep font-bold tracking-wide">
               {couple.bride.hindiFullName}
             </div>
-            <p className="text-[0.8rem] sm:text-[0.85rem] text-text-muted italic mt-0.5 font-devanagari">
+            <div className="mt-1.5 px-3.5 py-1 rounded-full bg-[#f6eee0]/90 border border-[#dfba67]/60 shadow-[0_2px_6px_rgba(74,14,23,0.06)] text-[0.82rem] sm:text-[0.88rem] text-burgundy-light font-semibold font-devanagari tracking-wide inline-block">
               {couple.bride.familyDisplay}
-            </p>
+            </div>
           </div>
         </ScrollReveal>
 
         {/* Connector */}
         <ScrollReveal delay={400}>
-          <div className="font-serif font-bold text-lg sm:text-xl text-gold-bright my-1.5 select-none animate-float-gentle tracking-widest uppercase flex items-center justify-center gap-2" aria-hidden="true">
-            <span className="text-gold-light">♡</span>
-            <span>संग • WEDS</span>
-            <span className="text-gold-light">♡</span>
+          <div className="my-3 flex items-center justify-center select-none" aria-hidden="true">
+            <div className="inline-flex items-center gap-2.5 px-5 py-1.5 rounded-full bg-gradient-to-r from-[#faeed4] via-[#fffbf3] to-[#faeed4] border-[1.5px] border-gold-bright shadow-[0_3px_12px_rgba(197,147,65,0.22)]">
+              <span className="text-burgundy text-xs animate-pulse">✦</span>
+              <span className="font-royal text-[0.85rem] sm:text-[0.95rem] tracking-[3px] font-bold text-burgundy-deep uppercase drop-shadow-[0_1px_1px_rgba(255,255,255,0.8)]">
+                संग <span className="text-gold-dark font-sans text-xs">•</span> WEDS
+              </span>
+              <span className="text-burgundy text-xs animate-pulse">✦</span>
+            </div>
           </div>
         </ScrollReveal>
 
@@ -121,22 +125,22 @@ export default function BlessingsSection() {
         <ScrollReveal delay={450}>
           <div className="flex flex-col items-center mt-2 sm:mt-3">
             {/* Circular Groom Avatar */}
-            <div className="w-[72px] h-[72px] sm:w-[84px] sm:h-[84px] rounded-full p-[2.5px] sm:p-[3px] bg-gold-foil shadow-md-wedding mb-1.5 sm:mb-2 hover:scale-105 transition-transform">
+            <div className="w-[76px] h-[76px] sm:w-[88px] sm:h-[88px] rounded-full p-[2.5px] sm:p-[3px] bg-gold-foil shadow-md-wedding mb-2 hover:scale-105 transition-transform">
               <img
                 src={couple.groom.photo}
                 alt={couple.groom.fullName}
                 className="w-full h-full object-cover object-top rounded-full"
               />
             </div>
-            <h1 className="text-[2.8rem] sm:text-[3.5rem] leading-none script-gold select-none">
+            <h1 className="text-[3rem] sm:text-[3.8rem] leading-none script-gold select-none font-bold tracking-tight mb-1">
               {couple.groom.firstName}
             </h1>
-            <div className="font-devanagari text-lg sm:text-xl text-burgundy font-medium mt-0.5">
+            <div className="font-devanagari text-xl sm:text-2xl text-burgundy-deep font-bold tracking-wide">
               {couple.groom.hindiFullName}
             </div>
-            <p className="text-[0.8rem] sm:text-[0.85rem] text-text-muted italic mt-0.5 font-devanagari">
+            <div className="mt-1.5 px-3.5 py-1 rounded-full bg-[#f6eee0]/90 border border-[#dfba67]/60 shadow-[0_2px_6px_rgba(74,14,23,0.06)] text-[0.82rem] sm:text-[0.88rem] text-burgundy-light font-semibold font-devanagari tracking-wide inline-block">
               {couple.groom.familyDisplay}
-            </p>
+            </div>
           </div>
         </ScrollReveal>
       </div>
