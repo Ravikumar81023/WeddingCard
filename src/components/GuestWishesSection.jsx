@@ -4,7 +4,7 @@ import ScrollReveal from './common/ScrollReveal';
 import { RoyalFiligreeDivider, DiyaLamp, CornerOrnament } from './common/RoyalOrnaments';
 
 const DEFAULT_WISHES = [
-  { name: "Family & Friends", text: "Wishing Anjali & Ritesh a lifetime of eternal love, happiness and prosperity! 🌸🥂", time: "Just now" },
+  { name: "Family & Friends", text: "Wishing Rakhi & Ranjit a lifetime of eternal love, happiness and prosperity! 🌸🥂", time: "Just now" },
   { name: "Sharma Family", text: "May God shower your sacred union with divine blessings! Congratulations! ✨❤️", time: "10m ago" },
   { name: "College Friends", text: "Super excited for 21st November! Can't wait to dance at the Baraat! 💃🕺", time: "1h ago" },
 ];
@@ -13,7 +13,7 @@ const PRESET_MESSAGES = [
   "🌸 Sada Suhagan Raho & Best Wishes!",
   "💖 Wishing you a lifetime of love & laughter!",
   "✨ May your union be blessed with immense joy!",
-  "🎉 Congratulations Anjali & Ritesh! Can't wait!",
+  "🎉 Congratulations Rakhi & Ranjit! Can't wait!",
 ];
 
 export default function GuestWishesSection({ onShowToast }) {

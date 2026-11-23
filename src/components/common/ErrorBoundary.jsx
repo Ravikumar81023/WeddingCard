@@ -25,7 +25,7 @@ export default class ErrorBoundary extends Component {
             💍
           </div>
           <h2 className="font-royal text-xl text-gold-light tracking-widest uppercase mb-2">
-            Anjali &amp; Ritesh
+            Rakhi &amp; Ranjit
           </h2>
           <p className="font-serif text-lg text-cream-soft max-w-md mb-6">
             Something unexpected occurred while loading the invitation. Please refresh to join the celebration.

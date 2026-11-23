@@ -1,6 +1,6 @@
 # Royal Wedding Invitation — React + Tailwind CSS (Production Grade)
 
-A pixel-perfect, high-performance, accessible clone of the royal Indian wedding invitation at [anjaliwedsritesh.pages.dev](https://anjaliwedsritesh.pages.dev), re-architected into modular, production-ready React.js and Tailwind CSS code.
+A pixel-perfect, high-performance, accessible clone of the royal Indian wedding invitation at [rakhiwedsranjit.pages.dev](https://rakhiwedsranjit.pages.dev), re-architected into modular, production-ready React.js and Tailwind CSS code.
 
 ---
 
