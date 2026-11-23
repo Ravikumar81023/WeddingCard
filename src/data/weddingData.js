@@ -33,7 +33,7 @@ export const WEDDING_DATA = {
       address: {
         title: "Bride's Residence / प्रेषक स्थल",
         icon: "/assets/images/bride.webp",
-        display: "ग्राम-सुलतानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), पिन-801301",
+        display: "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), पिन-801301",
         mapUrl: "https://goo.gl/maps/ruBhFB4t5oMRGQD3A?g_st=awb",
       },
       contact: {
@@ -95,7 +95,7 @@ export const WEDDING_DATA = {
     tithi: "मार्गशीर्ष शुक्ल पक्ष द्वितीया",
     city: "SULTANPUR",
     state: "NALANDA, BIHAR",
-    locationDisplay: "ग्राम-सुलतानपुर, नालन्दा (बिहार)",
+    locationDisplay: "ग्राम-सुल्तानपुर, नालन्दा (बिहार)",
   },
 
   festivities: [
@@ -106,7 +106,7 @@ export const WEDDING_DATA = {
       title: "शुभ लगन चुमावन, मटकोर एवं दालधोय",
       englishTitle: "Lagan Chumawan, Matkor & Daldhoy",
       image: "/assets/images/tilak_lagan.webp",
-      venueBadge: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुलतानपुर में",
+      venueBadge: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर में",
       venueBadgeIcon: "/assets/images/house.webp",
       badgeClass: "bg-[#f4ebe1] text-burgundy border-[#e0cebe]",
       tagline: "“मांगलिक लगन चुमावन, मटकोर एवं दालधोय की पावन रस्में” 🌺📜",
@@ -121,7 +121,7 @@ export const WEDDING_DATA = {
       title: "मण्डपाच्छादन, हल्दी कलश, वंशरोपन एवं देवपूजा",
       englishTitle: "Mandapachhadan, Haldi Kalash & Devpuja",
       bannerImage: "/assets/images/haldiceremnoy.webp",
-      venueBadge: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुलतानपुर में",
+      venueBadge: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर में",
       venueBadgeIcon: "/assets/images/turmeric.webp",
       badgeClass: "bg-[#fff8d6] text-[#7a5500] border-[#f3db78]",
       tagline: "“उबटन-हल्दी की पावन सुगंध, कुलदेवता पूजन एवं मण्डपाच्छादन” ✨",
@@ -136,7 +136,7 @@ export const WEDDING_DATA = {
       title: "शुभ विवाह, बारात आगमन एवं प्रीतिभोज",
       englishTitle: "Shubh Vivah, Baraat & Preetibhoj",
       image: "/assets/images/wedding_sitting_couple.webp",
-      venueBadge: "विवाह एवं प्रीतिभोज स्थल: निज निवास स्थान, ग्राम-सुलतानपुर",
+      venueBadge: "विवाह एवं प्रीतिभोज स्थल: निज निवास स्थान, ग्राम-सुल्तानपुर",
       venueBadgeIcon: "/assets/images/banquet.webp",
       badgeClass: "bg-[#fdf0d5] text-burgundy-deep border-gold-bright",
       tagline: "“घृतढारी, बारात आगमन रात्रि में, पावन सात फेरे एवं स्नेह प्रीतिभोज” 🔥🌹",
@@ -156,10 +156,10 @@ export const WEDDING_DATA = {
   venue: {
     title: "विवाह एवं प्रीतिभोज स्थल: निज निवास",
     englishTitle: "Our Residence: Gram Sultanpur",
-    subtitle: "ग्राम-सुलतानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), पिन-801301",
+    subtitle: "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), पिन-801301",
     bannerImage: "/assets/images/luxury-banquet.webp",
-    description: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुलतानपुर से सम्पन्न होगी। आप सभी सपरिवार सादर आमंत्रित हैं।",
-    address: "ग्राम-सुलतानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), बिहार - 801301",
+    description: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर से सम्पन्न होगी। आप सभी सपरिवार सादर आमंत्रित हैं।",
+    address: "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), बिहार - 801301",
     directionsUrl: "https://maps.google.com/?q=Sultanpur+Jagai+Aungari+Nalanda+Bihar",
     mapEmbedUrl: "https://maps.google.com/maps?q=Sultanpur%20Nalanda%20Bihar&t=&z=13&ie=UTF8&iwloc=&output=embed",
   },
@@ -179,11 +179,11 @@ export const WEDDING_DATA = {
     aakankshi: {
       title: "आकांक्षी / प्रेषक :-",
       name: "श्री अरुण प्रसाद",
-      address: "ग्राम-सुलतानपुर, पोस्ट-जगाई, थाना-औंगारी, जिला-नालन्दा",
+      address: "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी, जिला-नालन्दा",
     },
     title: "प्रेषक :-",
     name: "श्री अरुण प्रसाद",
-    address: "ग्राम-सुलतानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), 801301",
+    address: "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), 801301",
     phoneNumbers: [
       { label: "Mob", number: "9204723233" },
       { label: "Mob", number: "9835193378" },
