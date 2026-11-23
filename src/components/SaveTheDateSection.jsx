@@ -4,7 +4,7 @@ import { useWedding } from '../context/WeddingContext';
 import { playScratchSound } from '../utils/audio';
 import { launchCelebrationCrackers } from './FireworksCanvas';
 import ScrollReveal from './common/ScrollReveal';
-import { RoyalFiligreeDivider, CornerOrnament } from './common/RoyalOrnaments';
+import { RoyalFiligreeDivider, CornerOrnament, GoldenMandala } from './common/RoyalOrnaments';
 
 export default function SaveTheDateSection({ onShowToast }) {
   const { weddingDate } = WEDDING_DATA;
@@ -104,14 +104,19 @@ export default function SaveTheDateSection({ onShowToast }) {
   return (
     <section
       id="saveTheDateSection"
-      className="py-11 px-6 bg-gradient-to-b from-white via-ivory-warm to-cream-soft text-center relative"
-      aria-label="Save the Date &amp; Scratch Card"
+      className="py-11 px-4 sm:px-6 royal-velvet-section text-center relative overflow-hidden text-ivory"
+      aria-label="Save the Date & Scratch Card"
     >
+      {/* Background Rotating Mandala */}
+      <div className="absolute top-1/2 -left-20 pointer-events-none opacity-25 animate-spin-slow" aria-hidden="true">
+        <GoldenMandala size={280} />
+      </div>
+
       <ScrollReveal>
-        <div className="font-royal text-[0.72rem] tracking-[3px] font-bold text-gold-dark uppercase text-center mb-1.5">
+        <div className="font-royal text-[0.72rem] tracking-[3px] font-bold text-[#ffd978] uppercase text-center mb-1.5 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">
           MARK YOUR CALENDAR
         </div>
-        <h2 className="text-[3.2rem] leading-tight script-gold">
+        <h2 className="text-[3.2rem] leading-tight gold-animated-shimmer mb-2">
           Save the Date
         </h2>
 
@@ -119,7 +124,7 @@ export default function SaveTheDateSection({ onShowToast }) {
         <RoyalFiligreeDivider />
 
         {/* Pill */}
-        <div className="inline-flex items-center gap-2 bg-ivory border-[1.5px] border-gold-bright py-1.5 px-4 rounded-full font-royal text-[0.72rem] tracking-[2px] font-bold text-burgundy shadow-sm-wedding mb-6">
+        <div className="inline-flex items-center gap-2 bg-white/[0.08] backdrop-blur-sm border-[1.5px] border-gold-bright py-1.5 px-4 rounded-full font-royal text-[0.75rem] tracking-[2px] font-bold text-[#ffe7a3] shadow-[0_4px_14px_rgba(0,0,0,0.4)] mb-6">
           <span className="w-4 h-4 inline-block">
             <img src="/assets/images/calendar.webp" alt="" className="w-full h-full object-contain" />
           </span>
@@ -129,7 +134,7 @@ export default function SaveTheDateSection({ onShowToast }) {
 
       {/* Interactive Scratch Card */}
       <ScrollReveal delay={200}>
-        <div className="relative w-full max-w-[320px] h-[180px] mx-auto mb-2.5 rounded-[18px] shadow-[0_12px_30px_rgba(74,14,23,0.15)] ring-[3px] ring-gold-bright overflow-hidden bg-gradient-to-br from-[#fff9ed] to-[#f4e8d4]">
+        <div className="relative w-full max-w-[320px] h-[180px] mx-auto mb-2.5 rounded-[18px] shadow-[0_16px_36px_rgba(0,0,0,0.6),0_0_20px_rgba(223,186,103,0.3)] ring-[3px] ring-gold-bright overflow-hidden bg-gradient-to-br from-[#fff9ed] to-[#f4e8d4]">
           <CornerOrnament position="top-left" />
           <CornerOrnament position="bottom-right" />
 
@@ -198,8 +203,8 @@ export default function SaveTheDateSection({ onShowToast }) {
           />
         </div>
 
-        <p className="text-[0.78rem] text-gold-dark italic mt-3 mb-5">
-          ✨ Scratch or tap the gold card to unveil &amp; celebrate ✨
+        <p className="text-[0.82rem] text-[#ffd978] italic mt-3 mb-5 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">
+          ✨ Scratch or tap the gold card to unveil & celebrate ✨
         </p>
 
         {/* Quick Action Buttons: Add to Calendar & WhatsApp */}
@@ -208,7 +213,7 @@ export default function SaveTheDateSection({ onShowToast }) {
             href={googleCalUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-1.5 bg-white border border-gold-bright py-2 px-3 rounded-full text-xs font-royal tracking-wider text-burgundy font-bold shadow-sm hover:bg-gold-foil hover:text-burgundy-deep transition-all"
+            className="flex-1 flex items-center justify-center gap-1.5 bg-white/[0.1] backdrop-blur-sm border-[1.5px] border-gold-bright py-2.5 px-3 rounded-full text-xs font-royal tracking-wider text-[#ffe7a3] font-bold shadow-md hover:bg-gold-foil hover:text-burgundy-deep transition-all"
           >
             <span>📅</span>
             <span>Add to Cal</span>
@@ -218,7 +223,7 @@ export default function SaveTheDateSection({ onShowToast }) {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-1.5 bg-[#25D366] text-white py-2 px-3 rounded-full text-xs font-royal tracking-wider font-bold shadow-sm hover:scale-105 active:scale-95 transition-all"
+            className="flex-1 flex items-center justify-center gap-1.5 bg-[#25D366] text-white py-2.5 px-3 rounded-full text-xs font-royal tracking-wider font-bold shadow-md hover:scale-105 active:scale-95 transition-all"
           >
             <span>💬</span>
             <span>Share Invite</span>

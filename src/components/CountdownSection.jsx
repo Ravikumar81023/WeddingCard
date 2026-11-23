@@ -17,12 +17,12 @@ export default function CountdownSection() {
       <ScrollReveal>
         <div className="flex items-center justify-center gap-2 mb-1.5">
           <DiyaLamp size={22} />
-          <span className="font-royal text-[0.68rem] sm:text-[0.72rem] tracking-[2.5px] sm:tracking-[3px] font-bold text-gold-light uppercase">
+          <span className="font-royal text-[0.68rem] sm:text-[0.72rem] tracking-[2.5px] sm:tracking-[3px] font-bold text-[#ffd978] uppercase drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">
             THE COUNTDOWN BEGINS
           </span>
           <DiyaLamp size={22} />
         </div>
-        <h2 className="text-[2.8rem] sm:text-[3.2rem] leading-tight script-gold">
+        <h2 className="text-[2.8rem] sm:text-[3.2rem] leading-tight gold-animated-shimmer mb-2">
           Counting the Moments
         </h2>
       </ScrollReveal>

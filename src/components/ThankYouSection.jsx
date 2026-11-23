@@ -17,23 +17,23 @@ export default function ThankYouSection() {
           ♡
         </div>
 
-        <div className="font-royal text-[0.72rem] tracking-[3px] font-bold text-gold-light uppercase text-center mb-1">
+        <div className="font-royal text-[0.72rem] tracking-[3px] font-bold text-[#ffd978] uppercase text-center mb-1 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">
           दर्शनार्थी / निमंत्रक
         </div>
 
-        <h2 className="font-serif text-[2.8rem] text-ivory text-center leading-tight mb-2">
+        <h2 className="font-serif text-[2.8rem] sm:text-[3.4rem] text-divine-glow text-center leading-tight mb-2 font-bold">
           Thank You
         </h2>
 
-        <p className="font-serif text-[1.05rem] leading-[1.7] text-cream-sand max-w-[330px] mx-auto my-2 mb-4 italic">
+        <p className="font-serif text-[1.05rem] leading-[1.7] text-[#fdeab9] max-w-[330px] mx-auto my-2 mb-4 italic drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">
           हमारी खुशियों में शामिल होकर वर-वधू को अपना स्नेहाशीष प्रदान करें। आप सभी का आगमन हमारे लिए परम सौभाग्य की बात होगी।
         </p>
 
         {/* Script Names */}
-        <div className="font-serif text-[2.4rem] sm:text-[3rem] font-bold script-gold mb-1 select-none tracking-wide">
+        <div className="font-serif text-[2.4rem] sm:text-[3.2rem] font-bold gold-animated-shimmer mb-1 select-none tracking-wide">
           {couple.bride.firstName} Weds {couple.groom.firstName}
         </div>
-        <div className="font-devanagari text-xl text-gold-bright mb-8 font-medium">
+        <div className="font-devanagari text-xl sm:text-2xl text-divine-glow mb-8 font-bold">
           {couple.bride.hindiFirstName} संग {couple.groom.hindiFirstName}
         </div>
       </ScrollReveal>
