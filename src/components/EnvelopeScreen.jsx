@@ -43,7 +43,7 @@ export default function EnvelopeScreen() {
         />
 
         {/* 4K Exact Composite Image (Envelope + 3D R&R Seal + Typography) */}
-        <div className="relative w-full max-w-[min(92vw,440px)] max-h-[min(78dvh,680px)] aspect-[935/1024] rounded-[14px] sm:rounded-[18px] overflow-hidden drop-shadow-[0_20px_50px_rgba(0,0,0,0.95)] drop-shadow-[0_0_25px_rgba(223,186,103,0.25)] transition-transform duration-500 hover:scale-[1.015]">
+        <div className="relative w-full max-w-[min(92vw,440px)] max-h-[min(74dvh,640px)] aspect-[935/1024] rounded-[14px] sm:rounded-[18px] overflow-hidden drop-shadow-[0_20px_50px_rgba(0,0,0,0.95)] drop-shadow-[0_0_25px_rgba(223,186,103,0.25)] transition-transform duration-500 hover:scale-[1.015]">
           <picture>
             <source srcSet="/assets/images/envelope_4k.webp" type="image/webp" />
             <img
@@ -72,13 +72,13 @@ export default function EnvelopeScreen() {
           </button>
         </div>
 
-        {/* Floating Animated Prompt with High-Contrast Legibility */}
-        <div className="mt-2.5 sm:mt-4 flex items-center justify-center gap-2 animate-prompt-bounce pointer-events-none">
-          <span className="w-1.5 h-1.5 rounded-full bg-gold-bright animate-ping" />
-          <span className="font-royal text-[0.7rem] sm:text-[0.8rem] tracking-[2px] sm:tracking-[3px] font-bold text-[#fff2c6] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)]">
+        {/* Perfectly Centered Mobile-Responsive Animated Prompt */}
+        <div className="w-full flex items-center justify-center gap-2 sm:gap-2.5 mt-3 sm:mt-4 text-center pointer-events-none select-none animate-prompt-bounce px-2">
+          <span className="text-[#DFBA67] text-[0.65rem] sm:text-[0.75rem] leading-none select-none drop-shadow-[0_1px_4px_rgba(0,0,0,0.9)]">●</span>
+          <span className="font-royal text-[0.72rem] sm:text-[0.84rem] tracking-[2.5px] sm:tracking-[3.5px] font-bold text-[#fff2c6] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)] whitespace-nowrap">
             Tap Wax Seal to Open
           </span>
-          <span className="w-1.5 h-1.5 rounded-full bg-gold-bright animate-ping" />
+          <span className="text-[#DFBA67] text-[0.65rem] sm:text-[0.75rem] leading-none select-none drop-shadow-[0_1px_4px_rgba(0,0,0,0.9)]">●</span>
         </div>
       </div>
     </div>
