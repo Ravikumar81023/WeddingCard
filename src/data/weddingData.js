@@ -61,7 +61,7 @@ export const WEDDING_DATA = {
       },
     },
     couplePhoto: "/assets/images/couple_combined.jpg",
-    monogram: "/assets/images/heart-3r-logo.webp",
+    monogram: "/assets/images/rr_seal.png",
     ganeshaEmblem: "/assets/images/ganesh-gold.webp",
     quote: "“हल्दी है चन्दन है रिश्तों का बंधन है मेले मौसी की शादी में आप सभी का अभिनंदन है.....”",
     emotionalQuote: "“मेरी घर की राजदुलारी, आज दुजे के द्वार चली ।\nकल तक थी मेरी घर की शोभा, आज पिया के साथ चली ॥”",
