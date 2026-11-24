@@ -100,14 +100,18 @@ export default function EventsSection() {
                 </h3>
 
                 {/* Venue Badge */}
-                <div className="inline-block text-[0.75rem] font-semibold py-1.5 px-3.5 rounded-full my-1.5 mb-2.5 bg-white/[0.08] border border-gold-bright/40 text-[#fdeab9]">
-                  <img
-                    src={event.venueBadgeIcon}
-                    alt=""
-                    className="w-[15px] h-[15px] object-contain inline-block align-middle mr-1.5"
-                  />
-                  <span>{event.venueBadge}</span>
-                </div>
+                {event.venueBadge && (
+                  <div className="inline-block text-[0.75rem] font-semibold py-1.5 px-3.5 rounded-full my-1.5 mb-2.5 bg-white/[0.08] border border-gold-bright/40 text-[#fdeab9]">
+                    {event.venueBadgeIcon && (
+                      <img
+                        src={event.venueBadgeIcon}
+                        alt=""
+                        className="w-[15px] h-[15px] object-contain inline-block align-middle mr-1.5"
+                      />
+                    )}
+                    <span>{event.venueBadge}</span>
+                  </div>
+                )}
 
                 {/* Tagline */}
                 <p className="font-serif text-[0.92rem] italic text-[#fadc7a] mb-4 drop-shadow-[0_1px_2px_rgba(0,0,0,0.6)]">

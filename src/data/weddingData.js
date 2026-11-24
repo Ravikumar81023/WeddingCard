@@ -135,9 +135,6 @@ export const WEDDING_DATA = {
       title: "मण्डपाच्छादन, हल्दी कलश, वंशरोपन एवं देवपूजा",
       englishTitle: "Mandapachhadan, Haldi Kalash & Devpuja",
       bannerImage: "/assets/images/haldiceremnoy.webp",
-      // venueBadge:
-      //   "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर में",
-      venueBadgeIcon: "/assets/images/turmeric.webp",
       badgeClass: "bg-[#fff8d6] text-[#7a5500] border-[#f3db78]",
       tagline: "“उबटन-हल्दी की पावन सुगंध, कुलदेवता पूजन एवं मण्डपाच्छादन” ✨",
       dateDisplay: "गुरूवार, 10 दिसम्बर 2026",
