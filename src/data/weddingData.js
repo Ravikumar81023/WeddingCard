@@ -12,7 +12,8 @@
 export const WEDDING_DATA = {
   meta: {
     title: "Wedding Invitation | Rakhi & Ranjit (राखी संग रंजीत)",
-    description: "Join us for the auspicious wedding celebration of Rakhi & Ranjit on 11 December 2026 at Sultanpur, Nalanda, Bihar. 🌸",
+    description:
+      "Join us for the auspicious wedding celebration of Rakhi & Ranjit on 11 December 2026 at Sultanpur, Nalanda, Bihar. 🌸",
     ogImage: "/assets/images/couple_combined.jpg",
     favicon: "/assets/images/heart-3r-logo.webp",
   },
@@ -29,12 +30,15 @@ export const WEDDING_DATA = {
       designation: "कनिष्ठ सुपुत्री",
       parents: "श्रीमती संगीता देवी एवं श्री अरुण प्रसाद",
       lineage: "कनिष्ठ सुपुत्री: श्रीमती संगीता देवी एवं श्री अरुण प्रसाद",
-      familyDisplay: "( कनिष्ठ सुपुत्री: श्रीमती संगीता देवी एवं श्री अरुण प्रसाद )",
+      familyDisplay:
+        "( कनिष्ठ सुपुत्री: श्रीमती संगीता देवी एवं श्री अरुण प्रसाद )",
       address: {
         title: "Bride's Residence / प्रेषक स्थल",
         icon: "/assets/images/bride.webp",
-        display: "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), पिन-801301",
-        mapUrl: "https://goo.gl/maps/ruBhFB4t5oMRGQD3A?g_st=awb",
+        display:
+          "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), पिन-801301",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=Sultanpur,+Jagai,+Aungari,+Nalanda,+Bihar+801301",
       },
       contact: {
         role: "श्री अरुण प्रसाद (आकांक्षी / प्रेषक)",
@@ -50,14 +54,16 @@ export const WEDDING_DATA = {
       professionIcon: "/assets/images/laptopboy.webp",
       photo: "/assets/images/ranjit_groom.jpg",
       designation: "कनिष्ठ सुपुत्र",
-      parents: "स्व० विजय प्रसाद एवं श्रीमती मन्टु देवी",
-      lineage: "कनिष्ठ सुपुत्र: स्व० विजय प्रसाद एवं श्रीमती मन्टु देवी",
-      familyDisplay: "( कनिष्ठ सुपुत्र: स्व० विजय प्रसाद एवं श्रीमती मन्टु देवी )",
+      parents: " विजय प्रसाद एवं स्व० मन्टु देवी",
+      lineage: "कनिष्ठ सुपुत्र: श्री विजय प्रसाद एवं स्व० मन्टु देवी",
+      familyDisplay: "( कनिष्ठ सुपुत्र: श्री विजय प्रसाद एवं स्व० मन्टु देवी )",
       address: {
         title: "Groom's Residence / वर पक्ष स्थल",
         icon: "/assets/images/groom.webp",
-        display: "ग्राम+पो०-नेहुषपुर, थाना-छबिलापुर, जिला-नालन्दा, पिन कोड-803116",
-        mapUrl: "https://maps.google.com/?q=Nehushpur+Chhabilapur+Nalanda+Bihar+803116",
+        display:
+          "ग्राम+पो०-नेहुषपुर, थाना-छबिलापुर, जिला-नालन्दा, पिन कोड-803116",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=Nehushpur,+Chhabilapur,+Nalanda,+Bihar+803116",
       },
       contact: {
         role: "संपर्क सूत्र",
@@ -67,18 +73,25 @@ export const WEDDING_DATA = {
     couplePhoto: "/assets/images/couple_combined.jpg",
     monogram: "/assets/images/rr_seal.png",
     ganeshaEmblem: "/assets/images/ganesh-gold.webp",
-    quote: "“हल्दी है चन्दन है, रिश्तों का बंधन है मेले मौछी की छादी में आप सभी का अभिनंदन है........डुग्गा, डुग्गी”",
-    balManuhaar: "हल्दी है चन्दन है, रिश्तों का बंधन है मेले मौछी की छादी में आप सभी का अभिनंदन है........डुग्गा, डुग्गी",
-    emotionalQuote: "“मेरी घर की राजदुलारी, आज दुजे के द्वार चली ।\nकल तक थी मेरी घर की शोभा, आज पिया के साथ चली ॥”",
-    coupleBlessingPoem: "“देख कर इस सुन्दर जोड़ी को, ईश्वर भी मुस्कुरायेगे ।\nदेने को आशीर्वाद ज़मीन पर, आसमान से उतर आयेंगे ॥”",
+    quote:
+      "“हल्दी है चन्दन है, रिश्तों का बंधन है मेले मौछी की छादी में आप सभी का अभिनंदन है........डुग्गा, डुग्गी”",
+    balManuhaar:
+      "हल्दी है चन्दन है, रिश्तों का बंधन है मेले मौछी की छादी में आप सभी का अभिनंदन है........डुग्गा, डुग्गी",
+    emotionalQuote:
+      "“मेरी घर की राजदुलारी, आज दुजे के द्वार चली ।\nकल तक थी मेरी घर की शोभा, आज पिया के साथ चली ॥”",
+    coupleBlessingPoem:
+      "“देख कर इस सुन्दर जोड़ी को, ईश्वर भी मुस्कुरायेगे ।\nदेने को आशीर्वाद ज़मीन पर, आसमान से उतर आयेंगे ॥”",
   },
 
   blessings: {
     ganeshTitle: "!! श्री गणेशाय नमः !!",
-    sanskritShloka: "मंगलम् भगवान विष्णुः, मंगलम् गरुड़ध्वजः ।\nमंगलम् पुण्डरीकाक्षः, मंगलाय तनोहरिः ॥",
-    vakratundaShloka: "वक्रतुण्ड महाकाय, सूर्य कोटि समप्रभः ।\nनिर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥",
+    sanskritShloka:
+      "मंगलम् भगवान विष्णुः, मंगलम् गरुड़ध्वजः ।\nमंगलम् पुण्डरीकाक्षः, मंगलाय तनोहरिः ॥",
+    vakratundaShloka:
+      "वक्रतुण्ड महाकाय, सूर्य कोटि समप्रभः ।\nनिर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥",
     eldersBlessingTitle: "WITH THE HEAVENLY BLESSINGS OF OUR ELDERS",
-    eldersBlessingNote: "हल्दी है चन्दन है, रिश्तों का बंधन है मेले मौछी की छादी में आप सभी का अभिनंदन है........डुग्गा, डुग्गी 🌸",
+    eldersBlessingNote:
+      "हल्दी है चन्दन है, रिश्तों का बंधन है मेले मौछी की छादी में आप सभी का अभिनंदन है........डुग्गा, डुग्गी 🌸",
   },
 
   weddingDate: {
@@ -106,7 +119,8 @@ export const WEDDING_DATA = {
       title: "शुभ लगन चुमावन, मटकोर एवं दालधोय",
       englishTitle: "Lagan Chumawan, Matkor & Daldhoy",
       image: "/assets/images/tilak_lagan.webp",
-      venueBadge: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर में",
+      venueBadge:
+        "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर में",
       venueBadgeIcon: "/assets/images/house.webp",
       badgeClass: "bg-[#f4ebe1] text-burgundy border-[#e0cebe]",
       tagline: "“मांगलिक लगन चुमावन, मटकोर एवं दालधोय की पावन रस्में” 🌺📜",
@@ -121,7 +135,8 @@ export const WEDDING_DATA = {
       title: "मण्डपाच्छादन, हल्दी कलश, वंशरोपन एवं देवपूजा",
       englishTitle: "Mandapachhadan, Haldi Kalash & Devpuja",
       bannerImage: "/assets/images/haldiceremnoy.webp",
-      venueBadge: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर में",
+      // venueBadge:
+      //   "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर में",
       venueBadgeIcon: "/assets/images/turmeric.webp",
       badgeClass: "bg-[#fff8d6] text-[#7a5500] border-[#f3db78]",
       tagline: "“उबटन-हल्दी की पावन सुगंध, कुलदेवता पूजन एवं मण्डपाच्छादन” ✨",
@@ -139,7 +154,8 @@ export const WEDDING_DATA = {
       venueBadge: "विवाह एवं प्रीतिभोज स्थल: निज निवास स्थान, ग्राम-सुल्तानपुर",
       venueBadgeIcon: "/assets/images/banquet.webp",
       badgeClass: "bg-[#fdf0d5] text-burgundy-deep border-gold-bright",
-      tagline: "“घृतढारी, बारात आगमन रात्रि में, पावन सात फेरे एवं स्नेह प्रीतिभोज” 🔥🌹",
+      tagline:
+        "“घृतढारी, बारात आगमन रात्रि में, पावन सात फेरे एवं स्नेह प्रीतिभोज” 🔥🌹",
       dateDisplay: "शुक्रवार, 11 दिसम्बर 2026",
       timingDisplay: "संध्या 6 बजे से आपके आगमन तक",
       isHighlight: true,
@@ -147,8 +163,14 @@ export const WEDDING_DATA = {
         { label: "घृतढारी (Ghritdhari)", icon: "/assets/images/baraat.webp" },
         { label: "बारात आगमन रात्रि में", icon: "/assets/images/ring.webp" },
         { label: "शुभ विवाह एवं फेरे", icon: "/assets/images/fire.webp" },
-        { label: "प्रीतिभोज (संध्या 6 बजे से)", icon: "/assets/images/dinner.webp" },
-        { label: "विदाई (Vidai Ceremony)", icon: "/assets/images/namaste.webp" },
+        {
+          label: "प्रीतिभोज (संध्या 6 बजे से)",
+          icon: "/assets/images/dinner.webp",
+        },
+        {
+          label: "विदाई (Vidai Ceremony)",
+          icon: "/assets/images/namaste.webp",
+        },
       ],
     },
   ],
@@ -158,17 +180,24 @@ export const WEDDING_DATA = {
     englishTitle: "Our Residence: Gram Sultanpur",
     subtitle: "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), पिन-801301",
     bannerImage: "/assets/images/luxury-banquet.webp",
-    description: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर से सम्पन्न होगी। आप सभी सपरिवार सादर आमंत्रित हैं।",
-    address: "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), बिहार - 801301",
-    directionsUrl: "https://maps.google.com/?q=Sultanpur+Jagai+Aungari+Nalanda+Bihar",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Sultanpur%20Nalanda%20Bihar&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    description:
+      "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर से सम्पन्न होगी। आप सभी सपरिवार सादर आमंत्रित हैं।",
+    address:
+      "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), बिहार - 801301",
+    directionsUrl:
+      "https://www.google.com/maps/dir/?api=1&destination=Sultanpur,+Jagai,+Aungari,+Nalanda,+Bihar+801301",
+    mapSearchUrl:
+      "https://www.google.com/maps/search/?api=1&query=Sultanpur,+Jagai,+Aungari,+Nalanda,+Bihar+801301",
+    mapEmbedUrl:
+      "https://maps.google.com/maps?q=Sultanpur%20Nalanda%20Bihar&t=&z=13&ie=UTF8&iwloc=&output=embed",
   },
 
   invitationNote: {
     title: "के परिणय बंधन",
     salutation: "मान्यवर,",
     blessingLead: "परमपिता परमेश्वर की असीम अनुकम्पा से,",
-    appeal: "के शुभांगलिक अवसर पर सपरिवार पधार कर कन्या-वर को अपने स्नेहाशीर्वाद प्रदान कर हमें अनुगृहीत करें।",
+    appeal:
+      "के शुभांगलिक अवसर पर सपरिवार पधार कर कन्या-वर को अपने स्नेहाशीर्वाद प्रदान कर हमें अनुगृहीत करें।",
   },
 
   host: {
@@ -188,7 +217,7 @@ export const WEDDING_DATA = {
       { label: "Mob", number: "9204723233" },
       { label: "Mob", number: "9835193378" },
     ],
-    cardCredit: "शुभ मंगलम् शादी कार्ड, कमरूद्दीनगंज, बिहार शरीफ",
+    cardCredit: "🙏Next Drive Bihar and KhetiFoods Pvt. Ltd.🙏"
   },
 
   musicTracks: {

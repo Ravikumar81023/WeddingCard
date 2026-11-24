@@ -93,30 +93,31 @@ export default function VenueSection({ onShowToast }) {
               href={venue.directionsUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2.5 bg-gradient-to-r from-[#dfba67] via-[#fff5d1] to-[#c59341] text-burgundy-deep font-bold no-underline py-3 px-6 rounded-full font-royal text-[0.85rem] tracking-[2px] shadow-[0_6px_20px_rgba(223,186,103,0.4)] transition-all duration-300 hover:scale-[1.02] hover:-translate-y-0.5 mb-4"
-              aria-label="Get directions to venue"
+              className="flex items-center justify-center gap-2.5 bg-gradient-to-r from-[#dfba67] via-[#fff5d1] to-[#c59341] text-burgundy-deep font-bold no-underline py-3 px-6 rounded-full font-royal text-[0.85rem] tracking-[2px] shadow-[0_6px_20px_rgba(223,186,103,0.4)] transition-all duration-300 hover:scale-[1.02] hover:-translate-y-0.5 active:scale-95 mb-4 cursor-pointer"
+              aria-label="Get directions to venue in Google Maps"
             >
               <span>➤</span>
               <span>Get Directions</span>
             </a>
 
             {/* Google Maps Embed */}
-            <div className="rounded-[14px] overflow-hidden border border-gold-bright/40">
+            <div className="rounded-[14px] overflow-hidden border border-gold-bright/40 shadow-lg relative bg-black/30">
               <iframe
                 src={venue.mapEmbedUrl}
                 width="100%"
-                height="180"
+                height="190"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Venue Location Map"
+                className="w-full block"
               />
               <a
-                href={venue.directionsUrl}
+                href={venue.mapSearchUrl || venue.directionsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-1.5 bg-white/[0.08] p-2.5 font-royal text-[0.75rem] tracking-[1.5px] text-[#ffe7a3] font-bold border-t border-gold-bright/30 hover:bg-gold-foil hover:text-burgundy-deep transition-colors"
+                className="flex items-center justify-center gap-2 bg-[#2a040b] hover:bg-gold-foil hover:text-burgundy-deep text-[#ffe7a3] py-2.5 px-4 font-royal text-[0.78rem] tracking-[1.5px] font-bold border-t border-gold-bright/35 transition-all no-underline cursor-pointer"
               >
                 <img src="/assets/images/location.webp" alt="" className="w-4 h-4 object-contain inline-block mr-1" />
                 <span>Open in Google Maps</span>
