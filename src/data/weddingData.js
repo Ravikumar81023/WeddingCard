@@ -38,7 +38,7 @@ export const WEDDING_DATA = {
         display:
           "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), पिन-801301",
         mapUrl:
-          "https://www.google.com/maps/search/?api=1&query=Sultanpur,+Jagai,+Aungari,+Nalanda,+Bihar+801301",
+          "https://www.google.com/maps/place/Kheti+Foods/@25.1942068,85.2260337,17z/data=!3m1!4b1!4m6!3m5!1s0x39f2c1a82353790b:0xf587e8266fb1af60!8m2!3d25.1942068!4d85.2260337!16s%2Fg%2F11zd4mdpp4?entry=ttu&g_ep=EgoyMDI2MTEyMi4wIKXMDSoASAFQAw%3D%3D",
       },
       contact: {
         role: "श्री अरुण प्रसाद (आकांक्षी / प्रेषक)",
@@ -54,16 +54,16 @@ export const WEDDING_DATA = {
       professionIcon: "/assets/images/laptopboy.webp",
       photo: "/assets/images/ranjit_groom.jpg",
       designation: "कनिष्ठ सुपुत्र",
-      parents: " विजय प्रसाद एवं स्व० मन्टु देवी",
-      lineage: "कनिष्ठ सुपुत्र: श्री विजय प्रसाद एवं स्व० मन्टु देवी",
-      familyDisplay: "( कनिष्ठ सुपुत्र: श्री विजय प्रसाद एवं स्व० मन्टु देवी )",
+      parents: " श्री विजय प्रसाद , स्व० मिन्तु देवी",
+      lineage: "कनिष्ठ सुपुत्रः-श्री विजय प्रसाद , स्व० मिन्तु देवी",
+      familyDisplay: "( कनिष्ठ सुपुत्र: श्री विजय प्रसाद एवं स्व० मिन्तु देवी )",
       address: {
         title: "Groom's Residence / वर पक्ष स्थल",
         icon: "/assets/images/groom.webp",
         display:
-          "ग्राम+पो०-नेहुषपुर, थाना-छबिलापुर, जिला-नालन्दा, पिन कोड-803116",
+          "ग्राम+पो०-नेकपुर, थाना-छबिलापुर, जिला-नालन्दा, पिन कोड-803116",
         mapUrl:
-          "https://www.google.com/maps/search/?api=1&query=Nehushpur,+Chhabilapur,+Nalanda,+Bihar+803116",
+          "https://www.google.com/maps/place/Kheti+Foods/@25.1942068,85.2260337,17z/data=!3m1!4b1!4m6!3m5!1s0x39f2c1a82353790b:0xf587e8266fb1af60!8m2!3d25.1942068!4d85.2260337!16s%2Fg%2F11zd4mdpp4?entry=ttu&g_ep=EgoyMDI2MTEyMi4wIKXMDSoASAFQAw%3D%3D",
       },
       contact: {
         role: "संपर्क सूत्र",
@@ -119,8 +119,7 @@ export const WEDDING_DATA = {
       title: "शुभ लगन चुमावन, मटकोर एवं दालधोय",
       englishTitle: "Lagan Chumawan, Matkor & Daldhoy",
       image: "/assets/images/tilak_lagan.webp",
-      venueBadge:
-        "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्राम-सुल्तानपुर में",
+      venueBadge: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्रााम-सुल्तानपुर से सम्पन्न होगी",
       venueBadgeIcon: "/assets/images/house.webp",
       badgeClass: "bg-[#f4ebe1] text-burgundy border-[#e0cebe]",
       tagline: "“मांगलिक लगन चुमावन, मटकोर एवं दालधोय की पावन रस्में” 🌺📜",
@@ -148,7 +147,7 @@ export const WEDDING_DATA = {
       title: "शुभ विवाह, बारात आगमन एवं प्रीतिभोज",
       englishTitle: "Shubh Vivah, Baraat & Preetibhoj",
       image: "/assets/images/wedding_sitting_couple.webp",
-      venueBadge: "विवाह एवं प्रीतिभोज स्थल: निज निवास स्थान, ग्राम-सुल्तानपुर",
+      venueBadge: "समस्त वैवाहिक कार्यक्रम हमारे निवास स्थान ग्रााम-सुल्तानपुर से सम्पन्न होगी",
       venueBadgeIcon: "/assets/images/banquet.webp",
       badgeClass: "bg-[#fdf0d5] text-burgundy-deep border-gold-bright",
       tagline:
@@ -182,11 +181,11 @@ export const WEDDING_DATA = {
     address:
       "ग्राम-सुल्तानपुर, पोस्ट-जगाई, थाना-औंगारी (नालन्दा), बिहार - 801301",
     directionsUrl:
-      "https://www.google.com/maps/dir/?api=1&destination=Sultanpur,+Jagai,+Aungari,+Nalanda,+Bihar+801301",
+      "https://www.google.com/maps/place/Kheti+Foods/@25.1942068,85.2260337,17z/data=!3m1!4b1!4m6!3m5!1s0x39f2c1a82353790b:0xf587e8266fb1af60!8m2!3d25.1942068!4d85.2260337!16s%2Fg%2F11zd4mdpp4?entry=ttu&g_ep=EgoyMDI2MTEyMi4wIKXMDSoASAFQAw%3D%3D",
     mapSearchUrl:
-      "https://www.google.com/maps/search/?api=1&query=Sultanpur,+Jagai,+Aungari,+Nalanda,+Bihar+801301",
+      "https://www.google.com/maps/place/Kheti+Foods/@25.1942068,85.2260337,17z/data=!3m1!4b1!4m6!3m5!1s0x39f2c1a82353790b:0xf587e8266fb1af60!8m2!3d25.1942068!4d85.2260337!16s%2Fg%2F11zd4mdpp4?entry=ttu&g_ep=EgoyMDI2MTEyMi4wIKXMDSoASAFQAw%3D%3D",
     mapEmbedUrl:
-      "https://maps.google.com/maps?q=Sultanpur%20Nalanda%20Bihar&t=&z=13&ie=UTF8&iwloc=&output=embed",
+      "https://www.google.com/maps/place/Kheti+Foods/@25.1942068,85.2260337,17z/data=!3m1!4b1!4m6!3m5!1s0x39f2c1a82353790b:0xf587e8266fb1af60!8m2!3d25.1942068!4d85.2260337!16s%2Fg%2F11zd4mdpp4?entry=ttu&g_ep=EgoyMDI2MTEyMi4wIKXMDSoASAFQAw%3D%3D",
   },
 
   invitationNote: {
